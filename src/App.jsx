@@ -83,7 +83,7 @@ function App() {
     if (simulationStarted) {
       setSimulationStarted(false);
     }
-  }, [processes]);
+  }, [method]);
   
   const startSimulation = () => {
     processes[0].states = [];
